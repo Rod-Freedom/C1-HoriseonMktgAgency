@@ -3,8 +3,8 @@ Marketing agency optimized for search engines.
 
 ## **ABOUT THE PROJECT**
 **Overview**
-
-M
+An informative site about Horiseon Marketing Agency with accessibility standards for the user.
+The HTML code has been optimized for further improvement and future development. The body of the file has a header-main-footer structure easy to read with functional links and image descriptions.
 
 ## Table of Contents
 - [Resources](#resources)
@@ -15,19 +15,22 @@ M
 
 ## Resources
 * For the HTML:
-    * M
+    * ```alt``` and ```title``` attributes for accessibility.
+    * ```<header>```, ```<main>``` and ```<footer>``` tags for the main structure.
+    * ```<section>```, ```<article>```, ```<nav>``` and ```<aside>``` for the elements.
 * For the CSS:
-    * C
-    * M
+    * Un-repetitive selectors and classes.
 
 ## Usage
-T
+The site will simply provide you with information about Horiseon, and the links at the top menu will take you to the different sections by clicking them.
+
+![Landing Page](./assets/images/01-html-css-git-homework-demo.png)
 
 ## Get Started
-[Click here](), and meet Horeseon!
+Just access the website through your browser [here](https://rod-freedom.github.io/C1-HoriseonMktgAgency/).
 
 ## License
-This project is under an [MIT License](). See the LICENSE file for more details.
+This project is under an [MIT License](https://github.com/Rod-Freedom/C1-HoriseonMktgAgency/blob/main/LICENSE). See the LICENSE file for more details.
 
 ## Credits
-Code was built by Horiseon Social Solution Services, Inc. Edited and optimized by [Rod's Freedom](https://github.com/Rod-Freedom).
+The code was built by Horiseon Social Solution Services, Inc. Edited and optimized by [Rod's Freedom](https://github.com/Rod-Freedom).
