@@ -1,13 +1,17 @@
+/* The universal selector is used here to assign a default padding and margin of 0 to every element in the file.
+While border-box is used to take into account their parent elements. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Assigning the body a background color. */
 body {
     background-color: #d9dcd6;
 }
 
+/* Removed the class ".header" and changed the div into a header. This refers to the top bar at the site. */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +19,18 @@ header {
     color: #ffffff;
 }
 
+/* Changed to the newly created header element. */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* This is an exclusive class for the main title span element, so the header and h1 elements were removed from the selector. */
 .seo {
     color: #b0b3ad;
 }
 
+/* Turned the div into a nav for the top menu. */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,15 +39,18 @@ header nav {
     font-size: 20px;
 }
 
+/* This targets the ul that contains the links to navigate the site. */
 header nav ul {
     list-style-type: none;
 }
 
+/* This targets the navigation links in the top menu. */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* This class targets the hero image at the top of the site. */
 .hero {
     height: 800px;
     width: 100%;
@@ -50,15 +60,19 @@ header nav ul li {
     background-position: center;
 }
 
+
+/* To target links. (Same ones at the top menu bar) */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* To target the paragraph elements. */
 p {
     font-size: 16px;
 }
 
+/* A couple of classes used for the images inside the articles. */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,12 +83,14 @@ p {
     margin-left: 25px;
 }
 
+/* This class targets a div that was turned into a section to contain the articles. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Another class to target a section that contains the aside info elements. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,6 +102,8 @@ p {
     background-color: #2589bd;
 }
 
+/* This targets the aside elements with info about the brand benefits. 
+Three classes were turned into one for simplicity purposes. The three classes had the same style, so 9 selectors were turned into 3. */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
@@ -102,6 +120,7 @@ p {
     max-width: 150px;
 }
 
+/* A new class, to replace 3 former classes for simplicity purposes, that targets the articles. The three classes had the same style, so 9 selectors were turned into 3. */
 .feature {
     margin-bottom: 20px;
     padding: 50px;
@@ -120,6 +139,7 @@ p {
     font-size: 36px;
 }
 
+/* Removed the class ".footer" and changed the div into a "footer" element. This refers to the bottom bar that displays the credits of the site. */
 footer {
     padding: 30px;
     clear: both;
